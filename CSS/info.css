@@ -179,3 +179,57 @@ footer {
         align-items: center;
     }
 }
+
+/* Descriptions Section Styles */
+#descriptions {
+    padding: 4rem 2rem;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#descriptions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #007aff;
+    margin-bottom: 2rem;
+}
+
+#descriptions h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 2rem;
+    border-left: 5px solid #007aff;
+    padding-left: 10px;
+}
+
+#descriptions p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+    background: #f5f5f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #descriptions {
+        padding: 3rem 1rem;
+    }
+
+    #descriptions h2 {
+        font-size: 2rem;
+    }
+
+    #descriptions h3 {
+        font-size: 1.5rem;
+    }
+
+    #descriptions p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
